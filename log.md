@@ -23,6 +23,13 @@
 
 `2024-3-26`
 - New ideas:
-  - Frames as imput per step of Mamba with SCF Fusion and 2-d spatio-temporal scan. [LINK](https://arxiv.org/abs/2307.09356)
-  - Stacked Bidirectional Mamba (just like 2D RNN Archiecture)
-  - Clustering along time
+  - Deformable Transformer Module cannot by simply replaced by Mamba because the long-range modeling ability cannot be leveraged well.
+  - Inspired by [OnlineRefer: A Simple Online Baseline for Referring Video Object Segmentation](https://arxiv.org/abs/2307.09356) and [VMRNN: Integrating Vision Mamba and LSTM for Efficient and Accurate Spatiotemporal Forecasting](https://arxiv.org/abs/2403.16536), several ideas in `RVOS`:
+    - Reccurent along time (frames)
+    - Structure improvement: Stacked Mamba
+    - Multi-modal fusion: SCF (FT)
+    - Improve Mamba cell with LSTM cell mechanism (Gates)
+  - Inspired by [VideoMamba: State Space Model for Efficient Video Understanding](https://arxiv.org/abs/2403.06977), ideas in `RVOS`:
+    - Patch clustering
+    - SCF (FT) multi-modal fusion
+    - Multi-headed S6 cell
