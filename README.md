@@ -11,4 +11,12 @@ RVOS SgMg
 - Notes: [LINK](https://www.notion.so/ryan-ming/Spectrum-guided-Multi-granularity-Referring-Video-Object-Segmentation-4344952ce4794c68aa783b5d319da438?pvs=4)
 
 
+VideoMamba
+- Paper: [LINK](https://arxiv.org/abs/2403.06977)
+- Repo: [LINK](https://github.com/opengvlab/videomamba)
+
+
+Resources:
+- Repo [Awesome-Mamba-Papers](https://github.com/yyyujintang/Awesome-Mamba-Papers?tab=readme-ov-file)
+
 
