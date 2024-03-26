@@ -25,7 +25,7 @@
 - New ideas:
   - Deformable Transformer Module cannot by simply replaced by Mamba because the long-range modeling ability cannot be leveraged well.
   - Inspired by [OnlineRefer: A Simple Online Baseline for Referring Video Object Segmentation](https://arxiv.org/abs/2307.09356) and [VMRNN: Integrating Vision Mamba and LSTM for Efficient and Accurate Spatiotemporal Forecasting](https://arxiv.org/abs/2403.16536), several ideas in `RVOS`:
-    - Reccurent along time (frames)
+    - Reccurent along time (frames) with 2-D scan order
     - Structure improvement: Stacked Mamba
     - Multi-modal fusion: SCF (FT)
     - Improve Mamba cell with LSTM cell mechanism (Gates)
