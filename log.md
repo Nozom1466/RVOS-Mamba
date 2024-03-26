@@ -1,8 +1,11 @@
 `2024-3-13`
 - [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752) Reading finished. Notes at [LINK](https://www.notion.so/ryan-ming/Mamba-Linear-Time-Sequence-Modeling-with-Selective-State-Spaces-e7b242b01ab145a0add7ff1a0c9796c9?pvs=4)
 
+
+
 `2024-3-18`
 - [Spectrum-guided Multi-granularity Referring Video Object Segmentation](https://arxiv.org/abs/2307.13537) Reading finished. Notes at [LINK](https://www.notion.so/ryan-ming/Spectrum-guided-Multi-granularity-Referring-Video-Object-Segmentation-4344952ce4794c68aa783b5d319da438?pvs=4)
+
 
 
 `2024-3-24`
@@ -17,8 +20,9 @@
 
 
 
+
 `2024-3-26`
 - New ideas:
-```cmd
-here
-``` 
+  - Frames as imput per step of Mamba with SCF Fusion. [LINK](https://arxiv.org/abs/2307.09356)
+  - Stacked Bidirectional Mamba (just like 2D RNN Archiecture)
+  - Clustering along time
