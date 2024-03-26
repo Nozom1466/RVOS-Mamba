@@ -23,6 +23,6 @@
 
 `2024-3-26`
 - New ideas:
-  - Frames as imput per step of Mamba with SCF Fusion. [LINK](https://arxiv.org/abs/2307.09356)
+  - Frames as imput per step of Mamba with SCF Fusion and 2-d spatio-temporal scan. [LINK](https://arxiv.org/abs/2307.09356)
   - Stacked Bidirectional Mamba (just like 2D RNN Archiecture)
   - Clustering along time
