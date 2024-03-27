@@ -33,3 +33,8 @@
     - Patch clustering
     - SCF (FT) multi-modal fusion
     - Multi-headed S6 cell
+   
+`2024-3-28`
+- New ideas:
+  - Inspired by [LocalMamba: Visual State Space Model with Windowed Selective Scan](https://arxiv.org/abs/2403.09338):
+    - 3-D scan (with time dimension)
